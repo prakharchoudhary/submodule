@@ -1,7 +1,6 @@
 language: python
 
 git:
-  depth: true
   quiet: true
 
 before_script:
