@@ -1,0 +1,14 @@
+language: python
+
+git:
+  depth: true
+  quiet: true
+
+before_script:
+  - ls
+  - git config --global user.email "prakhar2397@gmail.com"
+  - git config --global user.name "prakharchoudhary"
+
+script:
+  - chmod +x update.sh
+  - "./.update.sh"
