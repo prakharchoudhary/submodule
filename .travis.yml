@@ -10,4 +10,4 @@ before_script:
 
 script:
   - chmod +x update.sh
-  - "./.update.sh"
+  - "./update.sh"
